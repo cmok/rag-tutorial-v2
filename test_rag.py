@@ -9,6 +9,12 @@ Actual Response: {actual_response}
 """
 
 
+def test_monopoly_hotel_build_rules():
+    assert not query_and_validate(
+        question="How much houses you have to build on a property before you build a hotel? (Answer with the number only)",
+        expected_response="6",
+    )
+
 def test_monopoly_rules():
     assert query_and_validate(
         question="How much total money does a player start with in Monopoly? (Answer with the number only)",
@@ -21,7 +27,6 @@ def test_ticket_to_ride_rules():
         question="How many points does the longest continuous train get in Ticket to Ride? (Answer with the number only)",
         expected_response="10 points",
     )
-
 
 def query_and_validate(question: str, expected_response: str):
     response_text = query_rag(question)
