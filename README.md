@@ -1,5 +1,10 @@
 # rag-tutorial-v2
 
+Pull llama3
+```
+ollama pull llama3
+```
+
 ```python
 pip install -r requirements.txt
 ```
