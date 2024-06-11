@@ -5,6 +5,8 @@ Pull llama3
 ollama pull llama3
 ```
 
+>> **_NOTE:_** Run/Tested with Python 3.11.9
+
 ```python
 pip install -r requirements.txt
 ```
