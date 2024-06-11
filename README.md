@@ -1,4 +1,5 @@
 # rag-tutorial-v2
+Create a database from custom data and the local llama-3 uses this to answer user questions.
 
 Pull llama3
 ```
